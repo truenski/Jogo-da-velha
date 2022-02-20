@@ -1,0 +1,59 @@
+
+
+h1{color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.square{
+    width: 100px;
+    background: rgb(255, 255, 255);
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    display:inline-block;
+    opacity:0.6;
+}
+
+.square:hover{
+    background-color:rgb(170, 255, 121);
+    border-radius:0.75rem;}
+
+body{text-align: center;
+background:black;}
+
+.stage{
+    background-image: url("./files/images.jfif"); 
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-top:50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+width: 100%;}
+.Escudo{position:relative;}
+
+.Escudo:after{ /*usado para registrar content, como se fosse uma nova caixa*/
+content: "\1F6E1" ;
+font-size: 50px;
+line-height: 100px;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.Espada{position:relative;}
+
+.Espada:after{
+    content: "\2694" ;
+font-size: 50px;
+line-height: 100px;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
